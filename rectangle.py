@@ -3,7 +3,7 @@
 #functionDemo.py - learning functions
 
 def rect(l,w):
-    print('Area',= l*w)
-    print('Perimeter',= (2*l)+(2*w))
+    print('Area is', l*w)
+    print('Perimeter is', (2*l)+(2*w))
     
 rect(3,4)
