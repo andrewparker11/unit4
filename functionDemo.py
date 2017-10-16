@@ -20,4 +20,4 @@ bigger('Smeds','Gallino') #bigger in terms of later alphabetical order
 def slope(x1,y1,x2,y2):#calculate slope
     print((y2-y1)/(x2-x1))
     
-slope(1,2,3,4)
+slope(1,2,2,4)
