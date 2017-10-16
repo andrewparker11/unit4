@@ -3,7 +3,7 @@
 #rectangle.py - calculates rectangle area and perimeter
 
 def cd(n):
-    i=5
+    i=n
     while i>0:
         print(i)
         i = i -1
