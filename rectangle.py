@@ -1,6 +1,6 @@
 #Andrew Parker
 #10/16/17
-#functionDemo.py - learning functions
+#rectangle.py - calculates rectangle area and perimeter
 
 def rect(l,w):
     print('Area is', l*w)
