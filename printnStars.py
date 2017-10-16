@@ -8,6 +8,6 @@ def ps(n):
         print('*'*i)
         i = i+1
     
-ps(10)
+ps(6)
 
 
