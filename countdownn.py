@@ -1,6 +1,6 @@
 #Andrew Parker
 #10/16/17
-#rectangle.py - calculates rectangle area and perimeter
+#countdownn.py - counts down from certain number and BOOM!
 
 def cd(n):
     i=n
