@@ -41,6 +41,8 @@ def moveBanana():
     
 
 def updateScore():
+    data['score'] += 10
+    print(data['score'])
 
 if __name__ == '__main__':
     
