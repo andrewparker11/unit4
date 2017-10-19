@@ -46,7 +46,7 @@ def moveBanana():
 
 def updateScore():
     data['score'] += 10
-    data['scoreBox'].destroy()
+    data['scoreText'].destroy()
     scoreBox = TextAsset('Score = '+str(data['score']))
     data['scoreText'] = Sprite(scoreBox,(0,ROWS*CELL_SIZE))
 
@@ -68,7 +68,7 @@ if __name__ == '__main__':
     Sprite(jungleBox)
     banana = Sprite(bananaBox,(COLS*CELL_SIZE/2,ROWS*CELL_SIZE/2))
     monkey = Sprite(monkeyBox)
-    Sprite(scoreBox,(0,ROWS*CELL_SIZE))
+    data['scoreText'] = Sprite(scoreBox,(0,ROWS*CELL_SIZE))
     
     
     App().listenKeyEvent('keydown','right arrow',moveRight)
