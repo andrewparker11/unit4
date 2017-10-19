@@ -38,8 +38,14 @@ def moveDown(event):
 def moveBanana():
     banana.x = randint(0,COLS-1)*CELL_SIZE
     banana.y = randint(0,ROWS-1)*CELL_SIZE
+    
+
+def updateScore():
 
 if __name__ == '__main__':
+    
+    data = {}
+    
     green = Color(0x006600,1)
     brown = Color(0x8B4513,1)
     yellow = Color(0xFFFF00,1)
