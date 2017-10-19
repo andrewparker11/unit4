@@ -10,7 +10,7 @@ COLS = 50
 CELL_SIZE = 20
 
 def moveRight(event):
-    monkeyBox.x += CELL_SIZE
+    monkey.x += CELL_SIZE
     
 """"moveLeft
 moveDown
@@ -26,7 +26,7 @@ if __name__ == '__main__':
     bananaBox = RectangleAsset(CELL_SIZE, CELL_SIZE,LineStyle(1,yellow),yellow)
     
     Sprite(jungleBox)
-    Sprite(monkeyBox)
+    monkey = Sprite(monkeyBox)
     Sprite(bananaBox,(COLS*CELL_SIZE/2,ROWS*CELL_SIZE/2))
     
     App().listenKeyEvent('keydown','right arrow',moveRight)
