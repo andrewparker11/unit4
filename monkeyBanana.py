@@ -29,7 +29,7 @@ def moveDown(event):
 
 def moveBanana():
     banana.x = randint(0,COLS-1)*CELL_SIZE
-    banana.y = randint(0,COLS-1)*CELL_SIZE
+    banana.y = randint(0,ROWS-1)*CELL_SIZE
 
 if __name__ == '__main__':
     green = Color(0x006600,1)
