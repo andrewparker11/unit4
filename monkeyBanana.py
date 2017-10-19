@@ -10,7 +10,7 @@ COLS = 50
 CELL_SIZE = 20
 
 def moveRight(event):
-    monkey.x += CELL_SIZE
+    monkeyBox.x += CELL_SIZE
     
 """"moveLeft
 moveDown
