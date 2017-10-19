@@ -3,6 +3,7 @@
 #monkeyBanana.py - best game ever
 
 from ggame import *
+from random import randint
 
 #constants 
 ROWS = 24
@@ -25,6 +26,9 @@ def moveDown(event):
     if monkey.y < (ROWS-1)*CELL_SIZE:
         monkey.y += CELL_SIZE
 
+
+def moveBanana():
+    banana.x = randint
 
 if __name__ == '__main__':
     green = Color(0x006600,1)
