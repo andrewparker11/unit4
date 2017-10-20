@@ -52,7 +52,7 @@ def updateScore():
     data['scoreText'] = Sprite(scoreBox,(0,ROWS*CELL_SIZE))
 
 def step():
-    data['frame'] += 1
+    data['frames'] += 1
     if data['frames'] == 300:
         moveBanana()
 
