@@ -10,6 +10,7 @@ ROWS = 24
 COLS = 50
 CELL_SIZE = 20
 
+#moves monkey right
 def moveRight(event):
     if monkey.x < (COLS-1)*CELL_SIZE:
         monkey.x += CELL_SIZE
@@ -17,6 +18,7 @@ def moveRight(event):
             moveBanana()
             updateScore()
     
+#moves monkey left
 def moveLeft(event):
     if monkey.x > 0:
         monkey.x -= CELL_SIZE
@@ -24,6 +26,7 @@ def moveLeft(event):
             moveBanana()
             updateScore()
     
+#moves monkey up    
 def moveUp(event):
     if monkey.y > 0:
         monkey.y -= CELL_SIZE
@@ -31,6 +34,7 @@ def moveUp(event):
             moveBanana()
             updateScore()
     
+#moves monkey down
 def moveDown(event):
     if monkey.y < (ROWS-1)*CELL_SIZE:
         monkey.y += CELL_SIZE
@@ -38,22 +42,23 @@ def moveDown(event):
             moveBanana()
             updateScore()
 
-
+#moves banana 
 def moveBanana():
     banana.x = randint(0,COLS-1)*CELL_SIZE
     banana.y = randint(0,ROWS-1)*CELL_SIZE
     data['frames'] = 0
     
-
+#updates score after monkey gets banana
 def updateScore():
     data['score'] += 10
     data['scoreText'].destroy()
     scoreBox = TextAsset('Score = '+str(data['score']))
     data['scoreText'] = Sprite(scoreBox,(0,ROWS*CELL_SIZE))
 
+#moves banana after a certain frame time
 def step():
     data['frames'] += 1
-    if data['frames'] == 100:
+    if data['frames'] == 200:
         moveBanana()
 
 if __name__ == '__main__':
