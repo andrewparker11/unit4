@@ -2,11 +2,8 @@
 #10/16/17
 #vprint.py - calculates rectangle area and perimeter
 
-def cd(n):
-    i=n
-    while i>0:
-        print(i)
-        i = i -1
-    print('BOOM! ')
+def string(word):
+    for ch in word:
+        print(ch)
     
-cd(5)
+string('smeds')
