@@ -61,6 +61,7 @@ def step():
     if data['frames'] == 200:
         moveBanana()
 
+#runs the game
 if __name__ == '__main__':
     
     data = {}
