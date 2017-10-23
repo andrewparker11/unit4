@@ -9,10 +9,12 @@ white = Color(0xFFFFFF,1)
 black = Color(0x000000,1)
 
 blackOutline = LineStyle(1,black) #pixels, color
+Rectangle = RectangleAsset(300,50,blackOutline,white) #width, height, outline, fill
 
-Rectangle = RectangleAsset(300,50,blackOutline,red) #width, height, outline, fill
 
-
-App().listenMouseEvent('click',mouseClick)
+"App().listenMouseEvent('click',mouseClick)"
+Sprite(Rectangle,(300,150))
 App().run()
+
+
 
