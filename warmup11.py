@@ -4,7 +4,8 @@
 
 def isPrime(n):
     y = n
-    for x 
+    i = 2
+    
     return True/False  
 
 
