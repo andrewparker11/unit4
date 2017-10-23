@@ -10,7 +10,7 @@ def isPrime(n):
         return True
     i = i + 1
 
-print(isPrime(6))
+print(isPrime(11))
 
 
 
