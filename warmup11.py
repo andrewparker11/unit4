@@ -6,12 +6,22 @@ def isPrime(n):
     for i in range(2, n-1): 
         if n%i == 0:
             return False  
+    return True
+
+print(isPrime(6))
+
+
+
+"""
+def isPrime(n):
+    for i in range(2, n-1): 
+        if n%i == 0:
+            return False  
     else:
         return True
     i = i + 1
 
-print(isPrime(11))
-
+print(isPrime(6))"""
 
 
 
