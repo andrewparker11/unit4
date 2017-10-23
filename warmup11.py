@@ -4,14 +4,13 @@
 
 def isPrime(n):
     for i in range(2, n-1): 
-        i = 1
         if n%i == 0:
             return False  
     else:
         return True
     i = i + 1
 
-print(isPrime())
+print(isPrime(6))
 
 
 
