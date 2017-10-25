@@ -17,7 +17,6 @@ purple = Color(0x7F00FF,1)
 darkPink = Color(0xFF007F,1) 
 
 blackOutline = LineStyle(1,black) #pixels, color
-Rectangle = RectangleAsset(970,500,blackOutline,white) #width, height, outline, fill
 
 def mouseClick(event):
     num = randint(1,10)
@@ -41,7 +40,7 @@ def mouseClick(event):
         color = purple
     elif num == 10:
         color = darkPink
-    rectangle = RectangleAsset(1000,1000,outline,color)
+    Rectangle = RectangleAsset(970,500,blackOutline,color)
 
 App().listenMouseEvent('click',mouseClick)
 Sprite(Rectangle,(30,15))
