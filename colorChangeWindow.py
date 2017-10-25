@@ -21,25 +21,25 @@ Rectangle = RectangleAsset(970,500,blackOutline,white) #width, height, outline, 
 
 def mouseClick(event):
     num = randint(1,10)
-    if num = 1:
+    if num == 1:
         color = white
-    elif num = 2:
+    elif num == 2:
         color = black
-    elif num = 3:
+    elif num == 3:
         color = red
-    elif num = 4:
+    elif num == 4:
         color = yellow
-    elif num = 5:
+    elif num == 5:
         color = orange
-    elif num = 6:
+    elif num == 6:
         color = green
-    elif num = 7:
+    elif num == 7:
         color = lightBlue
-    elif num = 8:
+    elif num == 8:
         color = blue
-    elif num = 9:
+    elif num == 9:
         color = purple
-    elif num = 10:
+    elif num == 10:
         color = darkPink
         
     rectangle = RectangleAsset(1000,1000,outline,color)
