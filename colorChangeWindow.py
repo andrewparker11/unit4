@@ -42,7 +42,7 @@ def mouseClick(event):
         color = darkPink
         
     rectangle = RectangleAsset(970,500,blackOutline,color)
-    Sprite(rectangle)
+    Sprite(rectangle,(25,15))
 
 App().listenMouseEvent('click',mouseClick)
 App().run()
