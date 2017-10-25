@@ -41,9 +41,8 @@ def mouseClick(event):
         color = purple
     elif num == 10:
         color = darkPink
-        
     rectangle = RectangleAsset(1000,1000,outline,color)
 
-"App().listenMouseEvent('click',mouseClick)"
+App().listenMouseEvent('click',mouseClick)
 Sprite(Rectangle,(30,15))
 App().run()
