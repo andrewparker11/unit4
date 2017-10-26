@@ -3,12 +3,12 @@
 #printSquares.py - prints squares 
 
 def squares(rows, cols):
-    print('+ - - +'*rows)
-    print('|     |'*cols)
-    print('+ - - +'*rows)
+    print('+ - - '*rows+'+')
+    print('|     '*cols+'|')
+    print('+ - - '*rows+'+')
    
    
-squares(20,20)
+squares(3,3)
 
 
 
