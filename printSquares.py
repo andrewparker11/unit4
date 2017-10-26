@@ -18,7 +18,6 @@ def squares(rows, cols):
     while i<=cols and i<rows:
         print('+ - - '*rows+'+')
         print('|     '*cols+'|')
-        print('+ - - '*rows+'+')
         i = i+1
 
 squares(8,8)
