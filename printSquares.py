@@ -5,15 +5,10 @@
 def squares(rows, cols):
     print('+ - - +'*rows)
     print('|     |'*cols)
+    print('+ - - +'*rows)
    
    
-squares(1,1)
+squares(20,20)
 
 
 
-"""
- if n == 0:
-        print('BOOM!')
-    else:
-        print(n)
-        countdown(n-1)"""
