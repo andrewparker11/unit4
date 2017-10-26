@@ -8,7 +8,7 @@ def squares(rows, cols):
     print('+ - - '*rows+'+')
    
    
-squares(5,3)
+squares(5,5)
 
 
 
