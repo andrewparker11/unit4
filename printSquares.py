@@ -4,6 +4,7 @@
 
 def squares(rows, cols):
     print('+ - - +'*rows)
+    print('|     |'
    
    
 squares(1,1)
