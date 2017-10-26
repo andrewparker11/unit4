@@ -16,9 +16,9 @@ squares(5,5)"""
 def squares(rows, cols):
     i = 1
     while i<=cols and i<rows:
-        print('+ - - '*rows+'+')
+        print('+ - - '*cols+'+')
         print('|     '*cols+'|')
         i = i+1
-    print('+ - - '*rows+'+')
+    print('+ - - '*cols+'+')
 squares(6,5)
 
