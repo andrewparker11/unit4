@@ -15,10 +15,10 @@ squares(5,5)"""
 
 def squares(rows, cols):
     i = 1
-    while i<rows:
+    while i<=rows:
         print('+ - - '*cols+'+')
         print('|     '*cols+'|')
         i = i+1
     print('+ - - '*cols+'+')
-squares(3,3)
+squares(1,1)
 
