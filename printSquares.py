@@ -20,5 +20,5 @@ def squares(rows, cols):
         print('|     '*cols+'|')
         i = i+1
     print('+ - - '*rows+'+')
-squares(8,8)
+squares(6,5)
 
