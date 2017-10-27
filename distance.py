@@ -7,4 +7,4 @@ def distance(x1,y1,x2,y2):
     answ = (((x2-x1)**2)+((y2-y1)**2))**(1/2)
     print(answ)
     
-distance(1,1,1,1)
+distance(3,3,1,1)
