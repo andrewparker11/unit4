@@ -16,5 +16,4 @@ def GCF(n1,n2):
         if n1%i == 0 and n2%i == 0:
             print(i)
 
-GCF(10,15))
-
+GCF(10,15)
