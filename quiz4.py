@@ -13,17 +13,17 @@ def average(n1,n2,n3):
 
 print(average(1,2,3))
 
-
+"""
 def lastLetter(string):
     for ch in string:
         if ch is
 
-lastLetter('Smedinghoff')
+lastLetter('Smedinghoff')"""
 
 
 def same(a1,a2):
     if a1==a2:
         return True
-return False
+    return False
     
 print(same(2*3,7-1))
