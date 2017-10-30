@@ -5,7 +5,7 @@
 def csia(word):
     print(word*5)
     
-csia('computer science is awesome ')
+csia('computer science is awesome                ')
 
 
 def average(n1,n2,n3):
@@ -13,12 +13,13 @@ def average(n1,n2,n3):
 
 print(average(1,2,3))
 
-"""
+
 def lastLetter(string):
     for ch in string:
-        if ch is
+        if ch is f:
+            return(ch)
 
-lastLetter('Smedinghoff')"""
+lastLetter('Smedinghoff')
 
 
 def same(a1,a2):
